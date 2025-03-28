@@ -11,7 +11,7 @@ export class EstacaoClimatica extends Component {
 
     componentDidMount(){
         this.timer = setInterval(() => {
-            //não faça assim
+            //comentario do prof: não faça assim
             // this.state.data = new Date().toLocaleTimeString()    
             //faça assim
             this.setState({

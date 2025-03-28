@@ -72,7 +72,7 @@ class App extends React.Component {
         const data = new Date()
         const estacao = this.obterEstacao(data, position.coords.latitude)
         const icone = this.icones[estacao]
-        //errado, atualiza a variável mas não atualiza a tela
+        //comentario do prof: errado, atualiza a variável mas não atualiza a tela
         //this.state.latitude = position.coords.latitude
         //certo, pois atualiza a tela também
         this.setState({

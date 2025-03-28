@@ -1,10 +1,10 @@
-// rce
+//c rce
 import React, { Component } from 'react'
 
 export class Loading extends Component {
   render() {
     return (
-        // .d-flex.justify-content-center.align-items-center.border.rounded.p-3
+        //c .d-flex.justify-content-center.align-items-center.border.rounded.p-3
         <div className="d-flex flex-column justify-content-center align-items-center border rounded p-3 w-100">
             <div 
                 className='spinner-border text-primary'
